@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+    --cor1:#d5e1ef;
+    --fontedotexto: 'Roboto Condensed', sans-serif;
+} 
+body{
+    background-color: var(--cor1);
+}
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 400px;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25vh;
+    padding: 10px;
+    border-radius: 10px;
+}
+#QRCODE{ 
+    width: 90%;
+    margin: 10px;
+    border-radius: 10px;
+}
+h1{
+    color: black;
+    font-size: 30px;
+    margin: 20px;
+    margin-bottom: 30px;
+    font-family: var(--fontedotexto);
+}
+p{
+    color: gray;
+    font-size: 18px;
+    font-family: var(--fontedotexto);
+}
+.attribution{
+    margin-top: 20px;
+    font-size: 15px;
+
+}
